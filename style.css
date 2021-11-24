@@ -1,0 +1,73 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.pdf {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(54, 54, 54);
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.pdf .toolbar {
+  padding: 1rem;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.pdf span {
+  color: white;
+}
+
+.pdf button {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: rgb(59, 59, 59);
+  border: none;
+  cursor: pointer;
+}
+
+.pdf canvas {
+  margin: 0 auto;
+}
+
+.flex {
+  display: inline-flex;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.font-sm {
+  font-size: 0.9rem;
+}
